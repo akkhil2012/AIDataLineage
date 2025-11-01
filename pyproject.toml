@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aidatalineage"
+version = "0.1.0"
+description = "AI-driven data lineage analysis toolkit"
+authors = [{name = "Your Name", email = "you@example.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+development = [
+  "pytest>=7.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
