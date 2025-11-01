@@ -1,0 +1,8 @@
+# Default configuration for AIDataLineage pipelines
+logging:
+  level: INFO
+
+storage:
+  raw_path: data/raw
+  processed_path: data/processed
+  intermediate_path: data/intermediate
